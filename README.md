@@ -8,7 +8,9 @@ docker pull mafintosh/base
 
 In addition to basic build tools (build-essential, git etc) this contains a program
 called `spawn` written in c for minimum memory footprint.
-The only thing this program does is spawn another a child process with the arguments you pass to it. This way you avoid being PID=1 (which otherwise might result in some issues)
+
+The only thing this program does is spawn another a child process with the arguments you pass to it.
+This way you avoid being PID=1 (which otherwise might result in some issues)
 
 ## Example usage
 
